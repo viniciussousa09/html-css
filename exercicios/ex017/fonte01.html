@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+            /* lighter normal bold bolder*/
+        }
+
+        h1 {
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font
+            
+            - font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em 'Times', sans-serif;
+        }
+        h2 {
+            font: italic bolder 2em 'Times', Sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fugiat laborum ipsam, quasi excepturi, nesciunt architecto id facilis reiciendis exercitationem accusantium cupiditate temporibus explicabo libero alias itaque? Voluptates, corporis labore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id eaque hic ipsum reprehenderit tenetur ducimus optio veniam commodi odit! Voluptatibus culpa, nisi quos esse soluta saepe quasi dolorem aspernatur fugiat?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident esse quidem vitae porro commodi, similique sapiente, earum voluptatum nobis enim excepturi cumque molestiae. Dicta animi ab obcaecati. Qui, laborum!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eveniet deserunt fugit veritatis? Est perferendis, excepturi obcaecati dolor provident voluptatem vero. Nemo perferendis alias eligendi deserunt molestiae? Ducimus, fuga expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem corporis sit quis ducimus illum, nisi tempore rem fugiat commodi id ad necessitatibus repellendus eveniet dolorum excepturi possimus reiciendis, culpa inventore.</p>
+</body>
+</html>
